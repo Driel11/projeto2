@@ -1,0 +1,12 @@
+body{
+    .container{
+        width: 200px;
+        height: 350px;
+    
+    }
+    .container img {
+        width: 120px;
+        height: auto;
+        align-items: center;
+    }
+}
