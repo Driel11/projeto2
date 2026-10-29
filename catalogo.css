@@ -72,8 +72,16 @@ body{
     .livros img{
         width: 185px;
         height: 180px;
-        margin-top: -40px;
+        margin-top: 10px;
+        cursor: pointer;
+        display: block;
+        transition: 0.3;
     }
+    .livro img :hover{
+        transform: translateX(8);
+    }
+
+
     .livros button{
         border: #D3D3D3 solid;
         border-radius: 10px;
@@ -81,6 +89,28 @@ body{
         height: 300px;
         width: 200px;
         background-color: white;
-
+        cursor: pointer;
+        display: flex;
+        transition: 0.3s ease;
     }
-}
+    .livros button :hover{
+        transform: scale(1.05)
+    }
+
+    .livros{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        height: 300px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    
+    .linha {
+        width: 1px;
+        height: 1px;
+        background-color: #D3D3D3;
+    }
+    
+    }
